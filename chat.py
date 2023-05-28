@@ -4,7 +4,6 @@ import json
 import torch
 
 from nltk_utils import bag_of_words, tokenize
-
 import torch.nn as nn
 import json
 
