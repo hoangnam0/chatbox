@@ -73,6 +73,7 @@ traitlets==5.5.0
 typing_extensions==4.4.0
 urllib3==1.26.12
 uvicorn==0.20.0
+underthesea==6.2.0
 wcwidth==0.2.5
 Werkzeug==2.2.2
 wincertstore==0.2
