@@ -1,0 +1,521 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Có ai ở đó không?",
+                "Hey",
+                "Alo",
+                "hai",
+                "Có ai ở đây không nhỉ",
+                "Hú hú",
+                "Tôi cần người hỗ trợ"
+            ],
+            "responses": [
+                "Hello",
+                "Rất vui khi được tư vấn cho bạn",
+                "Chào mừng bạn đến với shop thời trang Nguyên! Shop có thể hỗ trợ gì cho bạn ạ",
+                "Shop có thể giúp gì cho bạn",
+                "Chào ông/bà, tôi có thể giúp thể giúp gì cho quý khách?"
+            ],
+            "context": 
+                ""
+            
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Bai",
+                "Tạm biệt",
+                "Không mua nữa",
+                "baibai",
+                "bbye"
+            ],
+            "responses": [
+                "Hẹn gặp lại quý ông/bà",
+                "Chúc quý khách một ngày tốt lành",
+                "Mong rằng quý khách sẽ trở lại sớm"
+            ],
+            "context": 
+                ""
+            
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Cảm ơn bạn rất nhiều",
+                "Tuyệt vời lắm",
+                "Oke lắm anh bạn"
+            ],
+            "responses": [
+                "Rất vui khi được giúp đỡ",
+                "Đó là trách nhiệm của tôi",
+                "Gọi cho tôi bất cứ lúc nào cần thiết",
+                "Quá khen rồi ạ",
+                "Hân hạnh được giúp đỡ ông/bà"
+            ],
+            "context": 
+                ""
+            
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Xin lỗi, không thể hiểu bạn bạn đang nói gì",
+                "Vui lòng cho tôi biết thêm thông tin đi ạ",
+                "Không chắc là tôi hiểu",
+                "Quý khách đang đang hỏi gì vậy ạ, có thể nói lại dễ hiểu hơn không ạ"
+            ],
+            "context": 
+                ""
+            
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "Món hàng này còn không nhỉ",
+                "Bạn có thể giúp gì cho tôi",
+                "Mặt hàng này có còn không",
+                "Chiếc áo đang được nhất shop",
+                "Tôi cần người hỗ trợ"
+            ],
+            "responses": [
+                "Chào mừng bạn đã đến với thế giới thời trang nam-nữ Nguyên.Tôi là một chatbot phục vụ cho việc tư vấn sản phẩm của shop, Tôi có thể giúp gì cho bạn đây.\n Tôi muốn mua sản phẩm\n Tôi muốn mua hàng\n Shop có chương trình khuyến mãi không"
+            ],
+            "context": 
+                ""
+            
+        },
+        {
+            "tag": "Phone",
+            "patterns": [
+                "Tư vấn cho tôi về mẫu điện thoại thông minh",
+                "Tôi muốn mua điện tho",
+                "Tư vấn cho tôi về các mẫu điện thoại hiện nay",
+                "Muốn hỏi về các mẫu điện thoại",
+                "Điện thoại",
+                "Điện thoại thông minh",
+                "Muốn hỏi về mẫu điện thoại ..",
+                
+                
+                "Cần mua diện thoại",
+                "Muốn hỏi về các mẫu điện thoại"
+            ],
+            "responses": [
+                "Shop gửi bạn các sản phẩm phù hợp với câu hỏi để bạn dễ tham khảo. \n 1. Điện thoại samsung  \n 2. Điện thoại Iphone  \n 3. Điện thoại Oppo. Shop tư vấn cho mình về các mẫu điện thoại, không biết bạn muốn mua sản phẩm nào ạ?,"
+            ],
+            "context": [
+                "Phone"
+            ]
+        },
+        {
+            "tag": "Iphone 13",
+            "patterns": [
+                "Điện thoại iphone 13",
+                "Còn mẫu điện thoại iphone 13 này chứ",
+                "Tư vấn về điện thoại iphone 13",
+                "Mình hỏi về điện thoại iphone 13",
+                "Shop mình còn các mẫu điện thoại iphone 13 không?"
+            ],
+            "responses": [
+                "Dạ điện thoại iphone 13 shop vẫn còn hàng ạ. Quý khách muốn tôi tư vấn gì về sản phẩm áo điên thoại Iphone 13 không ạ?"
+            ]
+        },
+        {
+            "tag": "priceIphone",
+            "patterns": [
+                "Điện thoại Iphone 13 giá bao nhiêu ạ",
+                "Điện thoại Iphone 13 bán như thế nào",
+                "Điện thoại Iphone 13 bán giá ntn",
+                "Điện thoại Iphone 13 bán thế nào",
+                "Xin giá điện thoại Iphone 13",
+                "Điện thoại Iphone 13 bao nhiêu tiền",
+                "Điện thoại Iphone 13 bán giá ntn"
+            ],
+            "responses": [
+                "Dạ hiện tại điện thoại Iphone 13 bên em đang sale còn 1.000đ/ 1 chiếc thôi ạ"
+            ]
+        },
+        {
+            "tag": "Iphone13color",
+            "patterns": [
+                "Điện thoại Iphone 13 có mấy màu",
+                "Mấy màu",
+         
+                "Có mấy màu",
+                "Chất liệu gì thế",
+                "Áo có mấy màu, chất liệu gì"
+            ],
+            "responses": [
+                "Dạ áo bên shop có 4 màu: \n 1. Màu đỏ \n 2.Màu trắng  \n 3.Màu vàng \n 4.Màu navy. Cùng với chất liệu 100% kim loại titannium, rất an toàn khi sử dụng ạ."
+            ]
+        },
+        {
+            "tag": "Iphone13type",
+            "patterns": [
+                "Iphone 13 có mấy loại thế",
+                "Có những Iphone 13 có những loại nào",
+               
+                "Xin bảng các loại Iphone 13 shop ơi",
+                
+                "Nên sử dụng loại Iphone 13 nào ạ"
+            
+            ],
+            "responses": [
+                "Dạ shop xin gửi bảng các loại về sản phẩm Iphone 13 ạ"
+            ]
+        },
+        {
+            "tag": "samsungs7",
+            "patterns": [
+                "Shop mình còn điện thoại samsung s7 không",
+                "Còn điện thoại samsung s7 k shop",
+                "Còn điện thoại samsung s7 chứ",
+                "Điện thoại samsung s7",
+                "Mình hỏi về điện thoại samsung s7",
+                "Điện thoại samsung s7 còn không shop"
+            ],
+            "responses": [
+                "Dạ áo điện thoại samsung s7 shop mình vẫn còn hàng nhé. Quý khách muốn tôi tư vấn gì về sản phẩm ạ?"
+            ]
+        },
+        {
+            "tag": "samsungs7price",
+            "patterns": [
+                "Điện thoại samsung s7 giá bao nhiêu ạ?",
+                "Điện thoại samsung s7 bán thế nào?",
+                "Điện thoại samsung s7 bao nhiêu tiền?",
+                "Điện thoại samsung s7 bao nhiêu?",
+                "Điện thoại samsung s7 bán sao?",
+                "Xin giá điện thoại samsung s7?"
+            ],
+            "responses": [
+                "Dạ điện thoại Samsung s7 bên shop đang sale còn 2.500đ/ 1 chiếc thôi ạ. Qúy khách cần tư vấn thêm thông tin gì về sản phẩm áo sơ mi không ạ?"
+            ]
+        },
+        {
+            "tag": "samsungs7colorandmaterial",
+            "patterns": [
+                "Điện thoại Samsung s7 chất liệu gì thế, có mấy màu v",
+                "Có mấy màu, chất liệu gì",
+                "Điện thoại những màu gì, chất liệu gì thế",
+                "Cho xin thông tin chất liệu, màu sắc của điện thoại samsung s7 đi shop",
+                "Áo có mấy màu, chất liệu gì",
+                "Chất liệu gì, mấy màu"
+            ],
+            "responses": [
+                "Dạ điện thoại samsung s7 bên shop hiện có 5 màu đó ạ: \n 1. Kẻ tím than  \n 2. Kẻ đen  \n 3. Kẻ vàng  \n 4. Kẻ hồng . Cùng với chất liệu sản phẩm từ 100% nhựa rất an toàn cho cho người sử dụng."
+            ]
+        },
+        {
+            "tag": "samsungs7type",
+            "patterns": [
+                "Điện thoại samsung s7 có mấy loại",
+                "Có những loại nào",
+                "Xin bảng loại đi shop",
+                "Mình xin bảng loại đi"
+            ],
+            "responses": [
+                "Dạ shop xin gửi bạn bảng loại Samsung s7 của shop cho bạn dễ tham khảo và lựa chọn hơn ạ"
+            ]
+        },
+        {
+            "tag": "address",
+            "patterns": [
+                "Địa chỉ shop ỏ đâu thế ạ",
+                "Cho xin địa chỉ?",
+                "Nhà ở TPHCM thì đến đâu để mua",
+                "Có địa điểm nào ở Hà Nội không",
+                "Có mấy chi nhánh thế",
+                "Chi nhánh của shop mình ở những đâu v"
+            ],
+            "responses": [
+                "Bạn có thể ghé qua 3 chi nhánh tại TPHCM của Nguyên để mua hàng bạn nha."
+            ]
+        },
+        {
+            "tag": "ordersuggestions",
+            "patterns": [
+                "Tôi mua điện thoại này",
+                "Đặt một diện thoại Oppo Reno 2 về Lê Văn Việt nhé shop",
+                "Tôi mua 1 chiếc điện thoại Iphone 13 promax và chiếc điện thoại samsung note 20",
+                "Làm sao để đặt hàng",
+                "Đặt hàng",
+                "Mua hàng như nào",
+                "Mua hàng",
+                "Đặt hàng ntn v"
+            ],
+            "responses": [
+                "Để mua hàng bạn cho shop xin tên + sđt + địa chỉ để shop lên đơn hàng giúp bạn nhé. Tổng thanh toán bao gồm tiền hàng và phí ship bên cửa hàng là 20k áp dụng ở TPHCM và 30k áp dụng cho các tỉnh khác. Bạn vui lòng chú ý điện thoại để nhận đơn hàng nhé.  "
+            ]
+        },
+        {
+            "tag": "cancelorder",
+            "patterns": [
+                "Được hủy đơn không shop",
+                "hủy đơn",
+                "Mình xin hủy đơn hàng nhé",
+                "Hủy giúp mình đơn này nhé",
+                "Cho tôi hủy đơn này",
+                "Mình muốn hủy đơn",
+                "Hủy giúp em đơn vừa rồi với shop ơi",
+                "Tôi muốn hủy đơn vừa đặt nhé"
+            ],
+            "responses": [
+                "Bạn vui lòng chờ chút tôi sẽ thông báo cho chủ shop check lại đơn hàng của bạn nhé"
+            ]
+        },
+        {
+            "tag": "wrongaddress",
+            "patterns": [
+                "Giao sai điện thoại rồi shop ơi",
+                "Giao hàng bị lỗi rồi",
+                "Nhầm mẫu của tôi rồi",
+                "Hàng bị lỗi rồi ạ",
+                "Shop ơi hàng bị lỗi rồi",
+                "Hàng của tôi bị thiếu rồi"
+            ],
+            "responses": [
+                "Dạ trước hết thay mặt shop xin lỗi quý khách vì sự nhầm lẫn này ạ. Mình cho shop xin sdt để shop check đơn và phiền bạn chụp ảnh hàng bạn đã nhận để được shop hỗ trợ đổi cho bạn nha! Cảm ơn bạn!"
+            ]
+        },
+        {
+            "tag": "introduce",
+            "patterns": [
+                "Shop bán mặt hàng gì vậy",
+                "Bán gì vậy shop",
+                "Sản phẩm",
+                "Gồm những sản phẩm nào thế"
+            ],
+            "responses": [
+                "Hiện tại shop Nguyên đang kinh doanh các mặt hàng các điện thoại thông minh hiện nay. Bạn muốn mua mặt hàng nào nhỉ ?"
+            ]
+        },
+        {
+            "tag": "norequest",
+            "patterns": [
+                "Giảm giá được không",
+                "Giảm giá di shop ơi đắt quá",
+                "Bớt tí được không shop",
+                "Đắt quá sao mua nổi",
+                "Đắt quá"
+            ],
+            "responses": [
+                "Hông bé ơi, hông giảm được đâu. Nhưng hiện tại có 1 số mặt hàng đang sale mạnh đó ạ, quý khách có thể tham khảo qua giá cả sản phẩm ạ"
+            ]
+        },
+        {
+            "tag": "ship",
+            "patterns": [
+                "Phí ship đắt quá",
+                "Ship đắt",
+                "Ship đắt quá",
+                "Có thể miễn phí vận chuyển không?",
+                "Giảm tiền ship được k"
+            ],
+            "responses": [
+                "Hông được bạn ơi. Không có tiền ship thì không có ai chuyển cho bạn hết"
+            ]
+        },
+        {
+            "tag": "pay",
+            "patterns": [
+                "Thanh toán hàng kiểu gì vậy",
+                "Thanh toán",
+                "Kiểu thanh toán",
+                "Loại thanh toán",
+                "Có thể thanh toán bằng Alipay k",
+                "Tôi muốn thanh toán"
+            ],
+            "responses": [
+                "Hiện tại bên shop nhận 2 hình thức thanh toán chính đó là tiền mặt và chuyển khoản đó ạ. Quý khách tham khảo và chọn phương án phù hợp cho mình ạ !"
+            ]
+        },
+        {
+            "tag": "opporeno2",
+          "patterns": [
+            "Oppo Reno 2",
+            "Còn điện thoại Oppo Reno 2 chứ",
+            "Tư vấn về điện thoại Oppo Reno 2",
+            "Mình hỏi về điện thoại Oppo Reno 2",
+            "Oppo Reno 2 bán như nào",
+            "Shop mình còn Oppo Reno 2 không?"
+          ],
+          "responses": [
+            "Dạ áo phông shop vẫn còn hàng ạ. Quý khách muốn tôi tư vấn gì về sản phẩm điện thoại Oppo Reno 2 ạ?"
+          ]
+        },
+        {
+            "tag": "priceopporeno2",
+          "patterns": [
+            "Oppo Reno 2 giá bao nhiêu ạ",
+            "Oppo Reno 2 bán như thế nào",
+            "Oppo Reno 2 bán giá ntn",
+            "Oppo Reno 2 bán thế nào",
+            "Xin giá Oppo Reno 2",
+            "Oppo Reno 2 bao nhiêu tiền",
+            "Oppo Reno 2 bán giá ntn"
+          ],
+          "responses": [
+            "Dạ hiện tại điện thoại Oppo Reno 2 bên em đang sale còn 150.000đ/ 1 chiếc thôi ạ"
+          ]
+        },
+        {
+            "tag": "opporeno2materialandcolor",
+          "patterns": [
+            "Oppo Reno 2 chất liệu gì, có mấy màu",
+            "Chất liệu gì, mấy màu",
+            "Có mấy màu, chất liệu gì",
+            "Có mấy màu",
+            "Màu sắc",
+            "Chất liệu",
+            "Chất liệu gì thế",
+            "Áo có mấy màu, chất liệ gì"
+          ],
+            "responses": [
+                "Dạ áo bên shop có 4 màu: \n 1. Màu kem sữa \n 2.Màu trắng  \n 3.Màu đen \n 4.Màu navy. Cùng với chất liệu làm bằng hợp kim kim loại ạ."
+            ]
+        },
+        {
+            "tag": "opporeno2type",
+          "patterns": [
+            "Oppo Reno 2 có mấy loại thế",
+            "Có những loại nào",
+            
+            "Xin bảng loại shop ơi"
+          ],
+          "responses": [
+            "Dạ shop xin gửi bảng loại điện thoại Oppo Reno 2 ạ"
+          ]
+        },
+        {
+            "tag": "Relme",
+            "patterns": [
+                "Tư vấn cho tôi về mẫu điện thoại đến từ relme ",
+                "Tôi muốn mua điện thoại relme",
+                "Tư vấn cho tôi về mẫu điện thoại relme",
+                "Muốn hỏi về mẫu điện thoại relme",
+                "relme",
+                
+                "Muốn hỏi về mẫu điện thoại ..",
+                "Điện thoại relme",
+                
+                "Cần mua điện thoại relme",
+               
+                "Muốn hỏi về quần âu cho nữ"
+            ],
+            "responses": [
+                "Shop gửi bạn các sản phẩm phù hợp với câu hỏi để bạn dễ tham khảo. \n 1. Relme màu xanh \n 2. Relme màu đen. Shop tư vấn cho mình về diện thoại Relme, không biết bạn muốn mua sản phẩm nào ạ?,"
+            ],
+            "context": [
+                "relme"
+            ]
+        },
+        {
+            "tag": "cricket",
+            "patterns": [
+                "current cricket matches",
+                "cricket score"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "song",
+            "patterns": [
+                "top songs",
+                "best songs",
+                "hot songs",
+                " top 10 songs",
+                "top ten songs"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine",
+                "good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "timer",
+            "patterns": [
+                "set a timer"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "covid19",
+            "patterns": [
+                "covid 19 "
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless",
+                "useless",
+                "suggest",
+                "suggestions",
+                "you are bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to ted.thedlbot.suggestions@gmail.com. Thank you for helping me improve!"
+            ]
+        },
+        {
+            "tag": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ],
+            "context": [
+                "riddles"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "when were you made",
+                "what is your age"
+            ],
+            "responses": [
+                "I was made in 2020, if that's what you are asking!"
+            ]
+        }
+    ]
+}

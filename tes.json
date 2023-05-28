@@ -1,0 +1,420 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Có ai ở đó không?",
+                "Hey",
+                "Alo",
+                "hai",
+                "Có ai ở đây không nhỉ",
+                "Hú hú",
+                "Tôi cần người hỗ trợ"
+            ],
+            "responses": [
+                
+                "Rất vui khi được tư vấn cho bạn. Bán muốn tư vấn về gì (sản phẩm, dịch vụ)",
+                "Chào mừng bạn đến với shop Smart phone! Shop có thể hỗ trợ gì cho bạn ạ",
+                "Shop có thể giúp gì cho bạn",
+                "Chào ông/bà, tôi có thể giúp thể giúp gì cho quý khách?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tuvan",
+            "patterns": [
+                "tôi muốn tư vấn",
+                "tôi muốn trợ giúp",
+                "bạn có thể giúp tôi không"
+            ],
+            "responses": [
+                
+                "Rất vui khi được tư vấn cho bạn. Bạn muốn tư vấn về: 1. Sản phẩm \n 2. Dịch vụ"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag":"smartphone",
+            "patterns": [
+               "sản phẩm"
+            ],
+            "responses": [
+                "Dạ hiện tại bên shop minh có bán các loại điện thoại phổ biến hiện nay bạn có thể cung cấp cho tôi tên hãng được không: 1. Samsung \n 2.Iphone(Apple)"
+            ]
+        },
+        
+        {
+            "tag":"Iphone",
+            "patterns":[
+                "Iphone",
+                "apple"
+            ],
+            "responses": [
+                "Dạ hiện tại bên shop minh có bán các loại điện thoại phổ biên của iphone bạn muốn mức giá là bao nhiêu:\n 1. 1 Triệu - 4 Triệu \n 2. 4 Triệu - 8 Triệu (quí khách vui lòng nhập tên sản phẩm + giá) "
+            ]
+           
+        },
+        {
+            "tag":"Iphone_price(1-4)",
+            "patterns":[
+                "iphone giá 1 Triệu - 4 Triệu",
+                "iphone giá 2 Triệu",
+                "iphone giá 3 Triệu",
+                "iphone giá 4 triệu"
+            ],
+            "responses": [
+                "Dạ hiện tại bên shop minh đang có mẫu điện thoại Iphone 13 giá 2.990.000 có các màu:\n 1. Màu Trắng \n 2. Màu vàng. (quí khách vui lòng nhập tên sản phẩm + màu sắc) "
+            ]
+           
+        },
+
+        
+        {
+            "tag":"Iphone_color(white)",
+            "patterns":[
+                "iphone 13 màu trắng",
+                "iphone 13 trắng"
+            ],
+            "responses": [
+                "Dạ hiện tại Iphone 13 giá 2.990.000, màu trắng còn hàng ạ. Quí khách có muốn đặt mua không ạ.(Nếu có quí khách vui lòng nhập 'Có' hệ thống sẽ hướng dẫn quí khách đặt hàng)"
+            ]
+           
+        },
+       
+        {
+            "tag":"samsung_price(1-4)",
+            "patterns":[
+                "samsung giá 1 Triệu - 4 Triệu",
+                "samsung giá 2 Triệu",
+                "samsung giá 3 Triệu",
+                "samsung giá 4 triệu"
+            ],
+            "responses": [
+                "Dạ hiện tại bên shop minh đang có mẫu điện thoại samsung s7 giá 2.990.000 có các màu:\n 1. Màu Trắng \n 2. Màu vàng. (quí khách vui lòng nhập tên sản phẩm + màu sắc) "
+            ]
+        },
+        {
+            "tag":"samsung_color(white)",
+            "patterns":[
+                "samsung màu trắng",
+                "samsung trắng"
+            ],
+            "responses": [
+                "Dạ hiện tại bên shop minh đang có mẫu điện thoại samsung s7 giá 2.990.000 có các màu Trắng bên mình vẫn còn hàng ạ. Quí khách có muốn đặt mua không ạ.(Nếu có quí khách vui lòng nhập 'Có' hệ thống sẽ hướng dẫn quí khách đặt hàng) "
+            ]
+        },
+        {
+            "tag":"samsung_price(1-4)",
+            "patterns":[
+                "samsung giá 4 Triệu - 8 Triệu",
+                "samsung giá 5 Triệu",
+                "samsung giá 6 Triệu",
+                "samsung giá 7 triệu"
+            ],
+            "responses": [
+                "Dạ hiện tại bên shop minh đang các mẫu điện thoại samsung giá từ 4 triệu đến 8 triệu đã hết hàng ạ quí khách có thể chọn tầm giá khác hay hãng khác để hệ thống hổ trợ ạ!! "
+            ]
+        },
+        {
+            "tag":"huongdandathang",
+            "patterns":[
+                "có",
+                "hướng dẫn cách đặt hàng",
+                "cách đặt hàng",
+                "hướng đẫn cho tôi cách đặt hàng"
+            ],
+            "responses": [
+                "Bước 1: quí khách chọn sản phẩm cần mua </br> Bước 2: quí khách nhấn thêm vào giỏ hàng </br> Bước 3: quí khách điền thông và chọn hình thức thanh toán.</br> Chúc quí khách đặt hàng thành công "
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Bai",
+                "Tạm biệt",
+                "Không mua nữa",
+                "baibai",
+                "bbye"
+            ],
+            "responses": [
+                "Hẹn gặp lại quý ông/bà",
+                "Chúc quý khách một ngày tốt lành",
+                "Mong rằng quý khách sẽ trở lại sớm"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Cảm ơn bạn rất nhiều",
+                "Tuyệt vời lắm",
+                "Oke lắm anh bạn"
+            ],
+            "responses": [
+                "Rất vui khi được giúp đỡ",
+                "Đó là trách nhiệm của tôi",
+                "Gọi cho tôi bất cứ lúc nào cần thiết",
+                "Quá khen rồi ạ",
+                "Hân hạnh được giúp đỡ ông/bà"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Xin lỗi, không thể hiểu bạn bạn đang nói gì",
+                "Vui lòng cho tôi biết thêm thông tin đi ạ",
+                "Không chắc là tôi hiểu",
+                "Quý khách đang đang hỏi gì vậy ạ, có thể nói lại dễ hiểu hơn không ạ"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pay",
+            "patterns": [
+                "Thanh toán hàng kiểu gì vậy",
+                "Thanh toán",
+                "Kiểu thanh toán",
+                "Loại thanh toán",
+                "Có thể thanh toán bằng Alipay k",
+                "Tôi muốn thanh toán"
+            ],
+            "responses": [
+                "Hiện tại bên shop nhận 2 hình thức thanh toán chính đó là tiền mặt và chuyển khoản đó ạ. Quý khách tham khảo và chọn phương án phù hợp cho mình ạ !"
+            ]
+        },
+        {
+            "tag": "dichvu",
+            "patterns": [
+                "dịch vụ"
+                
+            ],
+            "responses": [
+                "Quý khách đang gặp khó khăn về dịch vụ nào vậy ạ: 1. Thanh toán \n 2. Hướng dẫn đặt hàng"
+            ]
+        },
+        {
+            "tag": "toimuonmuadienthoai",
+            "patterns": [
+                "Tôi muốn mua điện thoại",
+                "Tôi muốn tư vấn về điện thoại",
+                "Bạn có thể giúp tôi tư vấn về điện thoại này được không"
+                
+            ],
+            "responses": [
+                "Bạn muốn mua điện thoại chạy hệ điều hành nào? Android hay iOS?"
+            ]
+        },
+
+        {
+            "tag": "smarphonesystemA",
+            "patterns": [
+                "Android"
+                
+            ],
+            "responses": [
+                "Bạn muốn mua điện thoại ở mức giá nào:</br> 1. 1-4 triệu </br> 2. 5-8 triệu </br> 3. 9-12 Triệu "
+
+            ]
+        },
+        
+        {
+            "tag": "smarphoneprice(1-4)",
+            "patterns": [
+                "1 triệu",
+                "2 triệu",
+                "3 triệu",
+                "4 triệu",
+                "trên 1 triệu",
+                "dưới 2 triệu",
+                "trên 2 triệu",
+                "dưới 2 triệu",
+                "trên 3 triệu",
+                "dưới 3 triệu",
+                "từ 1 đến 4 triệu"
+                
+            ],
+            "responses": [
+                "Bạn cần điện thoại có bộ nhớ trong bao nhiêu GB?"
+            ],
+            "context":[
+                "smarphoneprice(1-4)"
+            ]
+
+        },
+        {
+            "tag": "smarphonesystemI",
+            "patterns": [
+                "ios",
+                "iOS"
+                
+            ],
+            "responses": [
+                "Bạn muốn mua điện thoại ở mức giá nào:</br> 1. 1-4 triệu </br> 2. 5-8 triệu </br> 3. 9-12 Triệu"
+            ]
+        },
+        {
+            "tag": "smarphoneMemory(16GB)",
+            "patterns": [
+                "16GB",
+                "16gb",
+                "16 GB",
+                "16 gb",
+                "16"
+               
+
+                
+            ],
+            "responses": [
+                "Bạn thường xuyên chụp ảnh và quay video, bạn muốn điện thoại có camera tốt đến mức nào?</br> 1. Tạm được </br> 2.Tốt </br> 3. Rất Tốt</br> (vui lòng nhập đúng thông tin cung cấp ở trên)"
+            ]
+        },
+        {
+            "tag": "smarphoneMemory(32GB)",
+            "patterns": [
+                "32GB",
+                "32gb",
+                "32 GB",
+                "32 gb",
+                "32"
+               
+
+                
+            ],
+            "responses": [
+                "Bạn thường xuyên chụp ảnh và quay video, bạn muốn điện thoại có camera tốt đến mức nào?</br> 1. Tạm được</br> 2.Tốt</br> 3.Rất tốt</br> Rất Tốt (vui lòng nhập đúng thông tin cung cấp ở trên)"
+            ]
+        },
+        {
+            "tag": "smarphoneMemory(64GB)",
+            "patterns": [
+                "64GB",
+                "63gb",
+                "64 GB",
+                "64 gb",
+                "64"
+               
+
+                
+            ],
+            "responses": [
+                "Bạn thường xuyên chụp ảnh và quay video, bạn muốn điện thoại có camera tốt đến mức nào?</br> 1. Tạm được</br> 2.Tốt</br> 3. Rất Tốt</br> (vui lòng nhập đúng thông tin cung cấp ở trên)"
+            ]
+        },
+        
+        {
+            "tag": "smarphonecamera(cungduoc)",
+            "patterns": [
+                "Cũng được",
+                "được"   
+            ],
+            "responses": [
+                "Bạn cần pin của điện thoại có dung lượng là bao nhiêu?</br> 1. 4.000mAh</br> 2. 5.000mAh</br> (vui lòng nhập đúng dung lượng)"
+            ],
+            "context":[
+                "smarphoneprice(1-4)_4.000mAh"
+            ]
+        },
+        {
+            "tag": "smarphonecamera(tot)",
+            "patterns": [
+                "tốt"
+                  
+            ],
+            "responses": [
+                "Bạn cần pin của điện thoại có dung lượng là bao nhiêu?</br> 1. 4.000mAh</br> 2. 5.000mAh</br> (vui lòng nhập đúng dung lượng)"
+            ],
+            "context":[
+                "smarphoneprice(1-4)_4.000mAh"
+            ]
+        },
+        {
+            "tag": "smarphonepin(4.000mAh)",
+            "patterns": [
+                "4.000mAh"
+                
+
+                
+            ],
+            "responses": [
+                "Bạn muốn mua điện thoại của hãng nào?</br> 1. Samsung</br> 2. ViVo</br> 3. Oppo"
+            ],
+            "context":[
+                "smarphoneprice(1-4)_125GB_Samsung"
+            ]
+            
+        },
+        {
+            "tag": "smarphonepin(5.000mAh)",
+            "patterns": [
+                "5.000mAh"
+            ],
+            "responses": [
+                "Bạn muốn mua điện thoại của hãng nào? 1. Samsung 2. ViVo 3. Oppo"
+            ]
+        },
+        {
+            "tag": "smarphonehang(Samsung)",
+            "patterns": [
+                "Samsung"
+            ],
+            "responses": [
+                ""
+            ],
+            "context":[
+                "smarphoneprice(1-4)_125GB_Samsung"
+            ]
+        },
+        {
+            "tag": "color(red)",
+            "patterns": [
+                "Màu đỏ",
+                "Đỏ",
+                "Điện thoại màu đỏ"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "color(yellow)",
+            "patterns": [
+                "Màu vàng",
+                "vàng"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "tuvanlai",
+            "patterns": [
+                "Tôi muốn thay đổi vài thông tin",
+                "tôi muốn tư vấn lại",
+                "tư vấn lại"
+            ],
+            "responses": [
+                ""
+            ]
+        }
+        
+
+
+    ]
+}
