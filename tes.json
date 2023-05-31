@@ -29,7 +29,14 @@
             "patterns": [
                 "tôi muốn tư vấn",
                 "tôi muốn trợ giúp",
-                "bạn có thể giúp tôi không"
+                "bạn có thể giúp tôi không",
+                "Tôi muốn nhận được sự tư vấn từ bạn.",
+                "Tôi đang cần trợ giúp. Bạn có thể giúp tôi không?",
+                "Tôi muốn nhờ bạn giúp đỡ.",
+                "Tôi đang gặp vấn đề và cần sự hỗ trợ. Bạn có thể giúp tôi không?",
+                "Tôi cần một ít tư vấn. Bạn có thể tư vấn cho tôi không?",
+                "Tôi đang cần hỗ trợ và hy vọng bạn có thể giúp tôi.",
+                "Tôi muốn nhờ bạn tư vấn về một vấn đề. Bạn có thể làm được không?"
             ],
             "responses": [
                 
@@ -42,10 +49,18 @@
         {
             "tag":"smartphone",
             "patterns": [
-               "sản phẩm"
+               "sản phẩm",
+               "Bên mình có các sản phẩm nào?",
+               "Sản phẩm phổ biển hiện nay",
+               "Sản phẩm nào đang hot",
+               "Shop đang kinh doanh sản phẩm phổ biến nào",
+               "Có những loại sản phẩm nào mà bên mình đang kinh doanh?",
+               "Hiện tại, các sản phẩm phổ biến nhất mà bên mình có là gì?",
+               "Có những sản phẩm nào đang được người dùng quan tâm và mua nhiều nhất?",
+               "Bên mình có kinh doanh những sản phẩm nổi tiếng và được ưa chuộng không?"
             ],
             "responses": [
-                "Dạ hiện tại bên shop minh có bán các loại điện thoại phổ biến hiện nay bạn có thể cung cấp cho tôi tên hãng được không: 1. Samsung \n 2.Iphone(Apple)"
+                "Dạ hiện tại bên shop minh có bán scác loại điện thoại phổ biến hiện nay bạn có thể cung cấp cho tôi tên hãng được không: 1. Samsung \n 2.Iphone(Apple)"
             ]
         },
         
@@ -193,7 +208,14 @@
                 "Kiểu thanh toán",
                 "Loại thanh toán",
                 "Có thể thanh toán bằng Alipay k",
-                "Tôi muốn thanh toán"
+                "Tôi muốn thanh toán",
+                "Tôi muốn biết cách thanh toán hàng hóa.",
+                "Có những phương thức thanh toán nào mà bạn hỗ trợ?",
+                "Tôi muốn biết về các lựa chọn thanh toán khi mua sản phẩm của bạn.",
+                "Có những hình thức thanh toán nào được chấp nhận tại cửa hàng của bạn?",
+                "Tôi muốn biết liệu tôi có thể thanh toán bằng Alipay hay không?",
+                "Có hỗ trợ thanh toán trực tuyến như Alipay hay không?",
+                "Tôi quan tâm đến cách thanh toán cho đơn hàng của mình."
             ],
             "responses": [
                 "Hiện tại bên shop nhận 2 hình thức thanh toán chính đó là tiền mặt và chuyển khoản đó ạ. Quý khách tham khảo và chọn phương án phù hợp cho mình ạ !"
@@ -214,7 +236,12 @@
             "patterns": [
                 "Tôi muốn mua điện thoại",
                 "Tôi muốn tư vấn về điện thoại",
-                "Bạn có thể giúp tôi tư vấn về điện thoại này được không"
+                "Bạn có thể giúp tôi tư vấn về điện thoại này được không",
+                "Tôi đang quan tâm đến việc mua một chiếc điện thoại. Bạn có thể giúp tôi không?",
+                "Tôi cần tư vấn về các lựa chọn điện thoại hiện có trên thị trường. Bạn có thể giúp được không?",
+                "Tôi đang muốn mua một chiếc điện thoại mới. Bạn có thể tư vấn cho tôi về những sản phẩm nổi bật không?",
+                "Tôi muốn nhận được sự tư vấn về điện thoại trước khi quyết định mua. Bạn có thể giúp tôi không?",
+                "Tôi đang muốn tìm hiểu về các thông số kỹ thuật và tính năng của điện thoại. Bạn có thể cung cấp thông tin cho tôi không?"       
                 
             ],
             "responses": [
